@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3725CADB1C9908FE005926AC /* nanovg.c in Sources */ = {isa = PBXBuildFile; fileRef = 3725CAB31C9908FE005926AC /* nanovg.c */; };
+		3725CADC1C9908FE005926AC /* nanovg.c in Sources */ = {isa = PBXBuildFile; fileRef = 3725CAB31C9908FE005926AC /* nanovg.c */; };
+		3725CADD1C9908FE005926AC /* demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3725CABA1C9908FE005926AC /* demo.cpp */; };
+		3725CADE1C9908FE005926AC /* demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3725CABA1C9908FE005926AC /* demo.cpp */; };
+		3725CADF1C9908FE005926AC /* NanoVGOpenGLDemo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3725CABC1C9908FE005926AC /* NanoVGOpenGLDemo.cpp */; };
+		3725CAE01C9908FE005926AC /* NanoVGOpenGLDemo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3725CABC1C9908FE005926AC /* NanoVGOpenGLDemo.cpp */; };
+		3725CAED1C9908FE005926AC /* cplusplus-objc-proxies.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3725CAD51C9908FE005926AC /* cplusplus-objc-proxies.mm */; };
+		3725CAEE1C9908FE005926AC /* cplusplus-objc-proxies.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3725CAD51C9908FE005926AC /* cplusplus-objc-proxies.mm */; };
+		3725CAEF1C9908FE005926AC /* cplusplus-subclasses.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3725CAD61C9908FE005926AC /* cplusplus-subclasses.mm */; };
+		3725CAF01C9908FE005926AC /* cplusplus-subclasses.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3725CAD61C9908FE005926AC /* cplusplus-subclasses.mm */; };
+		3725CAF11C9908FE005926AC /* cplusplus-converter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3725CAD91C9908FE005926AC /* cplusplus-converter.mm */; };
+		3725CAF21C9908FE005926AC /* cplusplus-converter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3725CAD91C9908FE005926AC /* cplusplus-converter.mm */; };
+		3725CAF71C997D2C005926AC /* perf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3725CAF41C997AA5005926AC /* perf.cpp */; };
+		3725CAF81C997D2D005926AC /* perf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3725CAF41C997AA5005926AC /* perf.cpp */; };
+		378DC4211C89B58F003C1937 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378DC4201C89B58F003C1937 /* AppDelegate.swift */; };
+		378DC4271C89B58F003C1937 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378DC4261C89B58F003C1937 /* GameViewController.swift */; };
+		378DC42A1C89B58F003C1937 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 378DC4281C89B58F003C1937 /* Main.storyboard */; };
+		378DC42C1C89B58F003C1937 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 378DC42B1C89B58F003C1937 /* Assets.xcassets */; };
+		378DC42F1C89B58F003C1937 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 378DC42D1C89B58F003C1937 /* LaunchScreen.storyboard */; };
+		378DC43D1C89B644003C1937 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378DC43C1C89B644003C1937 /* AppDelegate.swift */; };
+		378DC4411C89B644003C1937 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378DC4401C89B644003C1937 /* GameViewController.swift */; };
+		378DC4431C89B644003C1937 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 378DC4421C89B644003C1937 /* art.scnassets */; };
+		378DC4451C89B644003C1937 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 378DC4441C89B644003C1937 /* Assets.xcassets */; };
+		378DC4481C89B644003C1937 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 378DC4461C89B644003C1937 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3725CAB21C9908FE005926AC /* fontstash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fontstash.h; sourceTree = "<group>"; };
+		3725CAB31C9908FE005926AC /* nanovg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = nanovg.c; sourceTree = "<group>"; };
+		3725CAB41C9908FE005926AC /* nanovg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nanovg.h; sourceTree = "<group>"; };
+		3725CAB51C9908FE005926AC /* nanovg_gl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nanovg_gl.h; sourceTree = "<group>"; };
+		3725CAB61C9908FE005926AC /* nanovg_gl_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nanovg_gl_utils.h; sourceTree = "<group>"; };
+		3725CAB71C9908FE005926AC /* stb_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_image.h; sourceTree = "<group>"; };
+		3725CAB81C9908FE005926AC /* stb_truetype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_truetype.h; sourceTree = "<group>"; };
+		3725CABA1C9908FE005926AC /* demo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = demo.cpp; sourceTree = "<group>"; };
+		3725CABB1C9908FE005926AC /* demo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = demo.h; sourceTree = "<group>"; };
+		3725CABC1C9908FE005926AC /* NanoVGOpenGLDemo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NanoVGOpenGLDemo.cpp; sourceTree = "<group>"; };
+		3725CABD1C9908FE005926AC /* NanoVGOpenGLDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NanoVGOpenGLDemo.h; sourceTree = "<group>"; };
+		3725CAC21C9908FE005926AC /* perf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = perf.h; sourceTree = "<group>"; };
+		3725CAC31C9908FE005926AC /* stb_image_write.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_image_write.h; sourceTree = "<group>"; };
+		3725CAD31C9908FE005926AC /* cplusplus-objc-protocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "cplusplus-objc-protocols.h"; sourceTree = "<group>"; };
+		3725CAD41C9908FE005926AC /* cplusplus-objc-proxies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "cplusplus-objc-proxies.h"; sourceTree = "<group>"; };
+		3725CAD51C9908FE005926AC /* cplusplus-objc-proxies.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "cplusplus-objc-proxies.mm"; sourceTree = "<group>"; };
+		3725CAD61C9908FE005926AC /* cplusplus-subclasses.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "cplusplus-subclasses.mm"; sourceTree = "<group>"; };
+		3725CAD71C9908FE005926AC /* cplusplus-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "cplusplus-Bridging-Header.h"; sourceTree = "<group>"; };
+		3725CAD81C9908FE005926AC /* cplusplus-converter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "cplusplus-converter.h"; sourceTree = "<group>"; };
+		3725CAD91C9908FE005926AC /* cplusplus-converter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "cplusplus-converter.mm"; sourceTree = "<group>"; };
+		3725CADA1C9908FE005926AC /* NanoVGDemo-OSX-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NanoVGDemo-OSX-Bridging-Header.h"; sourceTree = "<group>"; };
+		3725CAF31C997765005926AC /* OpenGLIncludes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLIncludes.h; sourceTree = "<group>"; };
+		3725CAF41C997AA5005926AC /* perf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = perf.cpp; sourceTree = "<group>"; };
+		378DC41D1C89B58F003C1937 /* NanoVGDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NanoVGDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		378DC4201C89B58F003C1937 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		378DC4261C89B58F003C1937 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		378DC4291C89B58F003C1937 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		378DC42B1C89B58F003C1937 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		378DC42E1C89B58F003C1937 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		378DC4301C89B58F003C1937 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		378DC43A1C89B644003C1937 /* NanoVGDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NanoVGDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		378DC43C1C89B644003C1937 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		378DC4401C89B644003C1937 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		378DC4421C89B644003C1937 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		378DC4441C89B644003C1937 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		378DC4471C89B644003C1937 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		378DC4491C89B644003C1937 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		378DC41A1C89B58F003C1937 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378DC4371C89B644003C1937 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3725CAAF1C9908FE005926AC /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				3725CAB01C9908FE005926AC /* CPlusPlus */,
+				3725CAD11C9908FE005926AC /* ObjectiveCBridge */,
+			);
+			name = Common;
+			path = ../../Source/Common;
+			sourceTree = "<group>";
+		};
+		3725CAB01C9908FE005926AC /* CPlusPlus */ = {
+			isa = PBXGroup;
+			children = (
+				3725CAB11C9908FE005926AC /* NanoVG */,
+				3725CAB91C9908FE005926AC /* NanoVGDemo */,
+			);
+			path = CPlusPlus;
+			sourceTree = "<group>";
+		};
+		3725CAB11C9908FE005926AC /* NanoVG */ = {
+			isa = PBXGroup;
+			children = (
+				3725CAB21C9908FE005926AC /* fontstash.h */,
+				3725CAB31C9908FE005926AC /* nanovg.c */,
+				3725CAB41C9908FE005926AC /* nanovg.h */,
+				3725CAB51C9908FE005926AC /* nanovg_gl.h */,
+				3725CAB61C9908FE005926AC /* nanovg_gl_utils.h */,
+				3725CAB71C9908FE005926AC /* stb_image.h */,
+				3725CAB81C9908FE005926AC /* stb_truetype.h */,
+			);
+			path = NanoVG;
+			sourceTree = "<group>";
+		};
+		3725CAB91C9908FE005926AC /* NanoVGDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3725CABA1C9908FE005926AC /* demo.cpp */,
+				3725CABB1C9908FE005926AC /* demo.h */,
+				3725CABC1C9908FE005926AC /* NanoVGOpenGLDemo.cpp */,
+				3725CABD1C9908FE005926AC /* NanoVGOpenGLDemo.h */,
+				3725CAF31C997765005926AC /* OpenGLIncludes.h */,
+				3725CAF41C997AA5005926AC /* perf.cpp */,
+				3725CAC21C9908FE005926AC /* perf.h */,
+				3725CAC31C9908FE005926AC /* stb_image_write.h */,
+			);
+			path = NanoVGDemo;
+			sourceTree = "<group>";
+		};
+		3725CAD11C9908FE005926AC /* ObjectiveCBridge */ = {
+			isa = PBXGroup;
+			children = (
+				3725CAD21C9908FE005926AC /* cplusplus-Bridging-Header */,
+				3725CAD71C9908FE005926AC /* cplusplus-Bridging-Header.h */,
+				3725CAD81C9908FE005926AC /* cplusplus-converter.h */,
+				3725CAD91C9908FE005926AC /* cplusplus-converter.mm */,
+				3725CADA1C9908FE005926AC /* NanoVGDemo-OSX-Bridging-Header.h */,
+			);
+			path = ObjectiveCBridge;
+			sourceTree = "<group>";
+		};
+		3725CAD21C9908FE005926AC /* cplusplus-Bridging-Header */ = {
+			isa = PBXGroup;
+			children = (
+				3725CAD31C9908FE005926AC /* cplusplus-objc-protocols.h */,
+				3725CAD41C9908FE005926AC /* cplusplus-objc-proxies.h */,
+				3725CAD51C9908FE005926AC /* cplusplus-objc-proxies.mm */,
+				3725CAD61C9908FE005926AC /* cplusplus-subclasses.mm */,
+			);
+			path = "cplusplus-Bridging-Header";
+			sourceTree = "<group>";
+		};
+		378DC4141C89B58F003C1937 = {
+			isa = PBXGroup;
+			children = (
+				3725CAAF1C9908FE005926AC /* Common */,
+				378DC41F1C89B58F003C1937 /* NanoVGDemo-iOS */,
+				378DC43B1C89B644003C1937 /* NanoVGDemo-OSX */,
+				378DC41E1C89B58F003C1937 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		378DC41E1C89B58F003C1937 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				378DC41D1C89B58F003C1937 /* NanoVGDemo.app */,
+				378DC43A1C89B644003C1937 /* NanoVGDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		378DC41F1C89B58F003C1937 /* NanoVGDemo-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				378DC4201C89B58F003C1937 /* AppDelegate.swift */,
+				378DC4261C89B58F003C1937 /* GameViewController.swift */,
+				378DC4281C89B58F003C1937 /* Main.storyboard */,
+				378DC42B1C89B58F003C1937 /* Assets.xcassets */,
+				378DC42D1C89B58F003C1937 /* LaunchScreen.storyboard */,
+				378DC4301C89B58F003C1937 /* Info.plist */,
+			);
+			name = "NanoVGDemo-iOS";
+			path = ../../Source/iOS;
+			sourceTree = "<group>";
+		};
+		378DC43B1C89B644003C1937 /* NanoVGDemo-OSX */ = {
+			isa = PBXGroup;
+			children = (
+				378DC43C1C89B644003C1937 /* AppDelegate.swift */,
+				378DC4401C89B644003C1937 /* GameViewController.swift */,
+				378DC4421C89B644003C1937 /* art.scnassets */,
+				378DC4441C89B644003C1937 /* Assets.xcassets */,
+				378DC4461C89B644003C1937 /* MainMenu.xib */,
+				378DC4491C89B644003C1937 /* Info.plist */,
+			);
+			name = "NanoVGDemo-OSX";
+			path = ../../Source/OSX;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		378DC41C1C89B58F003C1937 /* NanoVGDemo-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 378DC4331C89B58F003C1937 /* Build configuration list for PBXNativeTarget "NanoVGDemo-iOS" */;
+			buildPhases = (
+				378DC4191C89B58F003C1937 /* Sources */,
+				378DC41A1C89B58F003C1937 /* Frameworks */,
+				378DC41B1C89B58F003C1937 /* Resources */,
+				379F36041C8DA63700346B27 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NanoVGDemo-iOS";
+			productName = "NanoVGDemo-iOS";
+			productReference = 378DC41D1C89B58F003C1937 /* NanoVGDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		378DC4391C89B644003C1937 /* NanoVGDemo-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 378DC44A1C89B644003C1937 /* Build configuration list for PBXNativeTarget "NanoVGDemo-OSX" */;
+			buildPhases = (
+				378DC4361C89B644003C1937 /* Sources */,
+				378DC4371C89B644003C1937 /* Frameworks */,
+				378DC4381C89B644003C1937 /* Resources */,
+				379F36051C8DA7E800346B27 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NanoVGDemo-OSX";
+			productName = "NanoVGDemo-OSX";
+			productReference = 378DC43A1C89B644003C1937 /* NanoVGDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		378DC4151C89B58F003C1937 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Sound Fantasy LLC";
+				TargetAttributes = {
+					378DC41C1C89B58F003C1937 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					378DC4391C89B644003C1937 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 378DC4181C89B58F003C1937 /* Build configuration list for PBXProject "NanoVGDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 378DC4141C89B58F003C1937;
+			productRefGroup = 378DC41E1C89B58F003C1937 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				378DC41C1C89B58F003C1937 /* NanoVGDemo-iOS */,
+				378DC4391C89B644003C1937 /* NanoVGDemo-OSX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		378DC41B1C89B58F003C1937 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378DC42A1C89B58F003C1937 /* Main.storyboard in Resources */,
+				378DC42C1C89B58F003C1937 /* Assets.xcassets in Resources */,
+				378DC42F1C89B58F003C1937 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378DC4381C89B644003C1937 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378DC4451C89B644003C1937 /* Assets.xcassets in Resources */,
+				378DC4431C89B644003C1937 /* art.scnassets in Resources */,
+				378DC4481C89B644003C1937 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		379F36041C8DA63700346B27 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp -f ../../Resources/*.jpg \"$TARGET_BUILD_DIR/$CONTENTS_FOLDER_PATH\"\ncp -f ../../Resources/*.ttf \"$TARGET_BUILD_DIR/$CONTENTS_FOLDER_PATH\"\n";
+		};
+		379F36051C8DA7E800346B27 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mkdir -p \"$TARGET_BUILD_DIR/$CONTENTS_FOLDER_PATH\"\nmkdir -p \"$TARGET_BUILD_DIR/$CONTENTS_FOLDER_PATH/Resources\"\ncp -f ../../Resources/*.jpg \"$TARGET_BUILD_DIR/$CONTENTS_FOLDER_PATH/Resources\"\ncp -f ../../Resources/*.ttf \"$TARGET_BUILD_DIR/$CONTENTS_FOLDER_PATH/Resources\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		378DC4191C89B58F003C1937 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3725CAF11C9908FE005926AC /* cplusplus-converter.mm in Sources */,
+				378DC4271C89B58F003C1937 /* GameViewController.swift in Sources */,
+				3725CAF71C997D2C005926AC /* perf.cpp in Sources */,
+				3725CAEF1C9908FE005926AC /* cplusplus-subclasses.mm in Sources */,
+				3725CAED1C9908FE005926AC /* cplusplus-objc-proxies.mm in Sources */,
+				378DC4211C89B58F003C1937 /* AppDelegate.swift in Sources */,
+				3725CADF1C9908FE005926AC /* NanoVGOpenGLDemo.cpp in Sources */,
+				3725CADD1C9908FE005926AC /* demo.cpp in Sources */,
+				3725CADB1C9908FE005926AC /* nanovg.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378DC4361C89B644003C1937 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3725CAF21C9908FE005926AC /* cplusplus-converter.mm in Sources */,
+				378DC4411C89B644003C1937 /* GameViewController.swift in Sources */,
+				3725CAF81C997D2D005926AC /* perf.cpp in Sources */,
+				3725CAF01C9908FE005926AC /* cplusplus-subclasses.mm in Sources */,
+				3725CAEE1C9908FE005926AC /* cplusplus-objc-proxies.mm in Sources */,
+				378DC43D1C89B644003C1937 /* AppDelegate.swift in Sources */,
+				3725CAE01C9908FE005926AC /* NanoVGOpenGLDemo.cpp in Sources */,
+				3725CADE1C9908FE005926AC /* demo.cpp in Sources */,
+				3725CADC1C9908FE005926AC /* nanovg.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		378DC4281C89B58F003C1937 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				378DC4291C89B58F003C1937 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		378DC42D1C89B58F003C1937 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				378DC42E1C89B58F003C1937 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		378DC4461C89B644003C1937 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				378DC4471C89B644003C1937 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		378DC4311C89B58F003C1937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		378DC4321C89B58F003C1937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		378DC4341C89B58F003C1937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"OS_IOS=1",
+					"NANOVG_GLES2_IMPLEMENTATION=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/../../Source/iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sound-fantasy.NanoVGDemo";
+				PRODUCT_NAME = NanoVGDemo;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../../Source/Common/ObjectiveCBridge/NanoVGDemo-OSX-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		378DC4351C89B58F003C1937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"OS_IOS=1",
+					"NANOVG_GLES2_IMPLEMENTATION=1",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/../../Source/iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sound-fantasy.NanoVGDemo";
+				PRODUCT_NAME = NanoVGDemo;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../../Source/Common/ObjectiveCBridge/NanoVGDemo-OSX-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		378DC44B1C89B644003C1937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"OS_MACOSX=1",
+					"DEBUG=1",
+					"NANOVG_GL3_IMPLEMENTATION=1",
+					"DEMO_MSAA=1",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/../../Source/OSX/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sound-fantasy.NanoVGDemo-OSX";
+				PRODUCT_NAME = NanoVGDemo;
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../../Source/Common/ObjectiveCBridge/NanoVGDemo-OSX-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		378DC44C1C89B644003C1937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"OS_MACOSX=1",
+					"NANOVG_GL3_IMPLEMENTATION=1",
+					"DEMO_MSAA=1",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/../../Source/OSX/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sound-fantasy.NanoVGDemo-OSX";
+				PRODUCT_NAME = NanoVGDemo;
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../../Source/Common/ObjectiveCBridge/NanoVGDemo-OSX-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		378DC4181C89B58F003C1937 /* Build configuration list for PBXProject "NanoVGDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				378DC4311C89B58F003C1937 /* Debug */,
+				378DC4321C89B58F003C1937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		378DC4331C89B58F003C1937 /* Build configuration list for PBXNativeTarget "NanoVGDemo-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				378DC4341C89B58F003C1937 /* Debug */,
+				378DC4351C89B58F003C1937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		378DC44A1C89B644003C1937 /* Build configuration list for PBXNativeTarget "NanoVGDemo-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				378DC44B1C89B644003C1937 /* Debug */,
+				378DC44C1C89B644003C1937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 378DC4151C89B58F003C1937 /* Project object */;
+}

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "825E6F95E145F7B7D4E2DA2C26C7D9562FCF8B7E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2492320B73B79D87D5382F21A878258F54AC2776" : 0,
+    "825E6F95E145F7B7D4E2DA2C26C7D9562FCF8B7E" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9901AFED-20CE-485E-BD05-A3843530CB8B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2492320B73B79D87D5382F21A878258F54AC2776" : "",
+    "825E6F95E145F7B7D4E2DA2C26C7D9562FCF8B7E" : "NanoVGDemo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "NanoVGDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Builds\/Apple\/NanoVGDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/greg\/Dropbox\/Repositories\/SoundFantasy.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2492320B73B79D87D5382F21A878258F54AC2776"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/greg\/Dropbox\/Repositories\/RainbowLab.git\/",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "825E6F95E145F7B7D4E2DA2C26C7D9562FCF8B7E"
+    }
+  ]
+}
