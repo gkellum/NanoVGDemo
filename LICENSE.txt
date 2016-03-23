@@ -1,0 +1,4 @@
+
+NanoVG's license can be found in its github repo at https://github.com/memononen/nanovg, but it is also checked in under Source/Common/CPlusPlus/NanoVG/LICENSE.txt.
+
+The code in this repository outside of the NanoVG code is in the public domain.
